@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task3</title>
+  </head>
+  <body>
+    <h1>
+      <mark><u>List</u></mark>
+    </h1>
+    <blockquote>It is used to display a list of items</blockquote>
+    <blockquote>
+      <ol>
+        <li>Ordered list</li>
+        <li>Unordered list</li>
+        <li>Data definition list</li>
+        <li>Nested list</li>
+      </ol>
+    </blockquote>
+    <hr />
+    <!-- Horizontal rule tag -->
+    <h2><u>Ordered List</u></h2>
+    <blockquote>
+      It is used to display a list in a specific order
+      <p>ol tag is used to create an ordered list</p>
+      <p>The default order is number (1,2,3...)</p>
+      <p>
+        type attribute helps to change the default
+        order(type="A","a","i","I","1")
+      </p>
+      <p>reversed attribute helps to reverse the order</p>
+      <p>start attribute helps to start the list from a specific number</p>
+    </blockquote>
+
+    <ol type="1" start="11">
+      <li>Apple</li>
+      <li>Banana</li>
+      <li>Cherry</li>
+      <li>Water Melon</li>
+    </ol>
+
+    <ol type="A" reversed>
+      <li>Tomato</li>
+      <li>Potato</li>
+      <li>Onion</li>
+      <li>Capsicum</li>
+    </ol>
+
+    <hr />
+    <h2><u>Unordered List</u></h2>
+    <blockquote>
+      <p>It is used to display a list without any order</p>
+      <p>ul tag is used to create an unordered list</p>
+      <p>
+        type attribute helps to change the default
+        order(type="disc","circle","square")
+      </p>
+    </blockquote>
+
+    <ul>
+      <li>Allu Arjun</li>
+      <li>Prabhas</li>
+      <li>Ram Charan</li>
+      <li>Jr Ntr</li>
+    </ul>
+
+    <ul type="square">
+      <li>Anushka</li>
+      <li>Tammana</li>
+      <li>Sai pallavi</li>
+      <li>Shruthi Hassan</li>
+    </ul>
+
+    <hr />
+    <h2><u>Data Definition List/Description List</u></h2>
+    <blockquote>
+      <p>It is used to display a list of terms and their descriptions</p>
+      <p>dl tag is used to create a data definition list</p>
+      <p>dt tag is used to define a term</p>
+      <p>dd tag is used to define a description</p>
+    </blockquote>
+
+    <dl>
+      <dt><abbr title="hyper text markup language">HTML</abbr></dt>
+      <dd>It is used to provide <b>structure/layout</b> to the web pages</dd>
+      <dt><abbr title="cascading style sheet">CSS</abbr></dt>
+      <dd>It is used to <b>design/style</b> of the web pages</dd>
+      <dt><abbr title="javascript">JS</abbr></dt>
+      <dd>
+        It is used to <strong>logic/functionality</strong> of the web pages
+      </dd>
+    </dl>
+
+    <hr />
+    <h2><u>Nested List</u></h2>
+    <blockquote>
+      <p>It is used to display a list inside another list</p>
+    </blockquote>
+
+    <ol>
+      <li>
+        Fruits
+        <ol>
+          <li>Mango</li>
+          <li>Orange</li>
+        </ol>
+      </li>
+      <li>
+        Vegetables
+        <ol>
+          <li>Cabbage</li>
+          <li>
+            Capsicum
+            <ol>
+              <li>Green Capsicum</li>
+              <li>yellow Capsicum</li>
+              <li>Red Capsicum</li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+    </ol>
+  </body>
+</html>
