@@ -14,6 +14,18 @@ git :git is a version control system where we can store, modify,
      read the data
     : we can track the code
 
+git init
+git add .
+git commit -m "text "
+git remote add origin paste your github link here
+git push origin master
+  
+  or 
+
+git push origin main
+ 
+
+
 
     
 
